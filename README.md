@@ -1,0 +1,1 @@
+- This is a git repository to track my daily life activities.
