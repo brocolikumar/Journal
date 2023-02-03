@@ -72,9 +72,10 @@ class Solution:
 TestCases
 '''
 # # ================================================================
-s = Solution()
-words = ["hello","leetcode"]
-order = "hlabcdefgijkmnopqrstuvwxyz"
-# order = "abcdefghijklmnopqrstuvwxyz"
-res = s.isAlienSorted(words,order)
-print(f"This is the result: {res}")
+if __name__=='main':
+    s = Solution()
+    words = ["hello","leetcode"]
+    order = "hlabcdefgijkmnopqrstuvwxyz"
+    # order = "abcdefghijklmnopqrstuvwxyz"
+    res = s.isAlienSorted(words,order)
+    print(f"This is the result: {res}")
